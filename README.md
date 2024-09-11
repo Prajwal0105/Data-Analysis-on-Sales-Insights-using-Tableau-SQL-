@@ -1,130 +1,133 @@
-<h1 align="center">Data Analysis on Sales Insights using Tableau & SQL <a href="https://public.tableau.com/app/profile/mrankitgupta" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/mrankitgupta/mrankitgupta/a768d6bf0a001f03327578ae12f8867e4056cbaf/tableau-software.svg" alt="tableau" width="55" height="40"/> </a> </h1>
+<h1 align="center">Data Analysis on Sales Insights Using Tableau & SQL  
+<a href="https://public.tableau.com/app/profile/mrankitgupta" target="_blank" rel="noreferrer">  
+<img src="https://raw.githubusercontent.com/mrankitgupta/mrankitgupta/a768d6bf0a001f03327578ae12f8867e4056cbaf/tableau-software.svg" alt="tableau" width="55" height="40"/>  
+</a>  
+</h1>
 
-**I am sharing India based Hardware company Sales Insights - A Data Analysis Project performed on Tableau & SQL.** 
+**A comprehensive data analysis project focused on sales insights for an India-based hardware company. Leveraging SQL for ETL processes and Tableau for advanced visualization, this project uncovers key metrics and provides data-driven business recommendations.**
 
-### About Project 👨‍💻
+---
 
-- Performed India based hardware company sales insights - A Data Analysis project.
+## Project Overview 📝
 
-- Developed ETL mappings using SQL to extract the data from unstructured data and transformed it to the staging area to conduct data cleaning and design star schema data model on Tableau.
+This project explores the sales performance of an India-based hardware company, using SQL for data extraction and transformation, and Tableau for visualization. The objective is to provide insights into various parameters affecting company performance, including revenue trends, customer behavior, product profitability, and market segmentation.
 
-- Developed a Tableau dashboard to perform analysis, producing quantitative visualizations in Tableau to draw valuable insights based on different parameters affecting the company performance year on year and further provide business solutions.
+### Key Features:
+- Developed ETL pipelines using SQL to transform raw, unstructured data into a structured format.
+- Built a star schema for efficient reporting and analysis in Tableau.
+- Created dynamic Tableau dashboards to visualize sales data, enabling stakeholders to make informed, data-driven decisions.
 
-## Technologies used ⚙️
+---
 
-* <a href="https://coursera.org/share/064db4645159df788ad0b31abebf1556">Advance Excel</a><a href="https://coursera.org/share/064db4645159df788ad0b31abebf1556" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/mrankitgupta/66DaysOfData/60139fb461ef56a19afd68ea4094f6069f27ce49/icons8-microsoft-excel%20(1).svg" alt="excel" width="25" height="25"/> </a>
+## Technologies Used 💻
 
-* <a href="https://www.mysql.com/">MySQL</a><a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="35" height="20"/> </a>   |  <a href="https://www.microsoft.com/en-us/sql-server">SQL Server</a><a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="sql-server" width="28" height="22"/> </a> 
+- **SQL (MySQL, SQL Server)**  
+  <a href="https://www.mysql.com/" target="_blank">  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="35" height="20"/>  
+  </a>  
+  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer">  
+  <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="sql-server" width="28" height="22"/>  
+  </a>
 
-* <a href="https://public.tableau.com/app/profile/mrankitgupta">Tableau</a><a href="https://public.tableau.com/app/profile/mrankitgupta" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/mrankitgupta/mrankitgupta/a768d6bf0a001f03327578ae12f8867e4056cbaf/tableau-software.svg" alt="tableau" width="20" height="20"/> </a>  |
-<a href="https://powerbi.microsoft.com/en-us/">Power BI</a><a href="https://powerbi.microsoft.com/en-us/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/mrankitgupta/mrankitgupta/a768d6bf0a001f03327578ae12f8867e4056cbaf/power-bi.svg" alt="powerbi" width="20" height="20"/> </a>
+- **Tableau**  
+  <a href="https://public.tableau.com/app/profile/mrankitgupta" target="_blank" rel="noreferrer">  
+  <img src="https://raw.githubusercontent.com/mrankitgupta/mrankitgupta/a768d6bf0a001f03327578ae12f8867e4056cbaf/tableau-software.svg" alt="tableau" width="25" height="25"/>  
+  </a>
 
-* <a href="https://github.com/mrankitgupta/Statistics-for-Data-Science-using-Python">Statistics</a><a href="https://github.com/mrankitgupta/Statistics-for-Data-Science-using-Python" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/mrankitgupta/66DaysOfData/c8c040f1c85d921db317152567f331354446286a/statistics-21.svg" alt="Statistics" width="25" height="25"/> </a>
+- **Excel**  
+  <a href="https://coursera.org/share/064db4645159df788ad0b31abebf1556" target="_blank" rel="noreferrer">  
+  <img src="https://raw.githubusercontent.com/mrankitgupta/66DaysOfData/60139fb461ef56a19afd68ea4094f6069f27ce49/icons8-microsoft-excel%20(1).svg" alt="excel" width="25" height="25"/>  
+  </a>
 
+---
 
-## Project - India based Hardware company Sales Insights - Data Analysis performed on Tableau & SQL
+## Problem Statements 🧐
 
+1. **Revenue Breakdown**: Analyze revenue distribution across different cities and regions.
+2. **Time-Based Analysis**: Investigate sales trends over years and months.
+3. **Customer Segmentation**: Identify the top 5 customers by revenue and sales quantity.
+4. **Product Insights**: Discover the top 5 products by revenue generation.
+5. **Profitability**: Evaluate net profit and profit margin across different markets.
 
-### Problem Statements
-Sales director wants to know the performance of the company in various Indian states & accordingly provide some discount.
+---
 
-- Q1. Revenue breakdown by cities.
+## Project Goals 🎯
 
-- Q2. Revenue brekdown by years & months.
+### Objective:
+To provide actionable sales insights that support strategic decision-making, while reducing manual data handling by automating reporting processes.
 
-- Q3. Top 5 customers by revenue & sales quantity.
+### Stakeholders:
+- Sales Director
+- IT Team
+- Customer Service Team
+- Data & Analytics Team
 
-- Q4. Top 5 Products by revenue.
-  
-- Q5. Net Profit & Profit Margin by Market
+### Expected Outcomes:
+- Automated dashboards offering real-time insights into sales performance.
+- A 10% improvement in decision-making efficiency, with a 20% reduction in manual data processing for sales analysts.
 
-### Approach - Project Planning & Aims Grid
-  
-#### 1. Purpose: What? Why? What do we want to achieve?
-To unlock sales insights that are not visible before for sales team for decision support & automate them to reduced manual time spent in data gathering.
+---
 
-#### 2. Stake Holders: Who will be involved?
-- Sales Director, 
-- I.T. Team, 
-- Customer Service Team, 
-- Data & Analytics Team.
+## Approach & Methodology 📊
 
-#### 3. End Result: What do we want to achieve?
-An automated dashboard providing quick & latest sales insights in order to support data driven decision making.
+1. **ETL Process**:  
+   - Data extraction from unstructured sources using SQL.  
+   - Data transformation, cleaning, and loading into a star schema for reporting in Tableau.
 
-#### 4. Success Criteria: What will be our success criteria?
-- Dashboards uncovering sales order insights with latest data available.
-- Sales team able to take better decision & prove 10% cost savings of total spend.
-- Sales analysts stop data gathering manually in order to save 20% of their business time & reinvest it in value added activity.
+2. **Visualization**:  
+   - Developed interactive Tableau dashboards to track key metrics such as revenue, sales trends, customer behavior, and product performance.
 
-### Data Analysis - Approach
-<p  align="center"><a href="https://github.com/mrankitgupta"><img width="80%" src="https://github.com/mrankitgupta/Sales-Insights-Data-Analysis-using-Tableau-and-SQL/blob/main/images/flow.jpg" /></a></p>
+---
 
-### Setup Process
-  
-Step 1: Download file: <code>[db_dump.sql](https://github.com/mrankitgupta/Sales-Insights-Data-Analysis-using-Tableau-and-SQL/blob/main/Databases/db_dump.sql)</code> or <code>[db_dump.xlsx](https://github.com/mrankitgupta/Sales-Insights-Data-Analysis-using-Tableau-and-SQL/blob/main/Databases/db_dump.xlsx)</code>
+## Setup Instructions ⚙️
 
-Step 2: Import it in MySql do ETL(Extract, Transform, Load) if required
+1. Download the database file:  
+   - **[SQL Dump](https://github.com/mrankitgupta/Sales-Insights-Data-Analysis-using-Tableau-and-SQL/blob/main/Databases/db_dump.sql)**  
+   - **[Excel Dump](https://github.com/mrankitgupta/Sales-Insights-Data-Analysis-using-Tableau-and-SQL/blob/main/Databases/db_dump.xlsx)**
 
-Step 3: Download [Tableau Public](https://www.tableau.com/products/public/download) (Free) or [Tableau Desktop](https://www.tableau.com/products/desktop/download) (14 days trial) to perform Data Analysis
-  
-Step 4: Connect Tableau with MySql database or Excel database
-  
-Step 5: Save the file as (.twb or .twbx)
+2. Import the data into **MySQL** or **SQL Server** and perform ETL processes if necessary.
 
-  
-## Data Analysis Using SQL
-  
-1. Show all customer records
+3. Download **Tableau Public** or **Tableau Desktop** to build your visualizations.  
+   - [Download Tableau Public](https://www.tableau.com/products/public/download)  
+   - [Download Tableau Desktop](https://www.tableau.com/products/desktop/download)
 
-    `SELECT * FROM customers;`
+4. Connect Tableau to the SQL database or Excel data source.
 
-1. Show total number of customers
+5. Save your Tableau file as `.twb` or `.twbx`.
 
-    `SELECT count(*) FROM customers;`
+---
 
-1. Show transactions for Chennai market (market code for chennai is Mark001)
+## SQL Data Queries 🛠️
 
-    `SELECT * FROM transactions where market_code='Mark001';`
+- Show all customer records:  
+  `SELECT * FROM customers;`
 
-1. Show distrinct product codes that were sold in chennai.
+- Total number of customers:  
+  `SELECT count(*) FROM customers;`
 
-    `SELECT distinct product_code FROM transactions where market_code='Mark001';`
+- Transactions in the Chennai market:  
+  `SELECT * FROM transactions WHERE market_code='Mark001';`
 
-1. Show transactions where currency is US dollars.
+- Product codes sold in Chennai:  
+  `SELECT DISTINCT product_code FROM transactions WHERE market_code='Mark001';`
 
-    `SELECT * from transactions where currency="USD"`
+- Total revenue in 2020:  
+  `SELECT SUM(sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date WHERE date.year=2020;`
 
-1. Show transactions in 2020 join by date table.
+---
 
-    `SELECT transactions.*, date.* FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020;`
+## Tableau Dashboards 📈
 
-1. Show total revenue in year 2020.
+### Revenue Analysis:
+<p align="center">  
+<a href="https://public.tableau.com/views/SalesInsights-DataAnalysisProject/Dashboard-RevenueAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link">  
+<img width="100%" src="https://github.com/mrankitgupta/Sales-Insights-Data-Analysis-using-Tableau-and-SQL/blob/main/images/Tableau%20Dashbpard%20Revenue%20Analysis.png" />  
+</a>  
+</p>
 
-    `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and transactions.currency="INR\r" or transactions.currency="USD\r";`
-	
-1. Show total revenue in year 2020, January Month.
-
-    `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and and date.month_name="January" and (transactions.currency="INR\r" or transactions.currency="USD\r");`
-
-1. Show total revenue in year 2020 in Chennai.
-
-    `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020and transactions.market_code="Mark001";`
-
-
-## Data Analysis Using Tableau 
-
-#### Creating Star Schema in Tableau
-	
-<p  align="center"><a href="https://public.tableau.com/app/profile/mrankitgupta"><img width="80%" src="https://github.com/mrankitgupta/Sales-Insights-Data-Analysis-using-Tableau-and-SQL/blob/main/images/Star%20Schema.png" /></a></p>
-
-#### Revenue Analysis
-	
-<p  align="center"><a href="https://public.tableau.com/views/SalesInsights-DataAnalysisProject/Dashboard-RevenueAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link"><img width="100%" src="https://github.com/mrankitgupta/Sales-Insights-Data-Analysis-using-Tableau-and-SQL/blob/main/images/Tableau%20Dashbpard%20Revenue%20Analysis.png" /></a></p>
-
-#### Profit Analysis
-	
-<p  align="center"><a href="https://public.tableau.com/views/SalesInsights-DataAnalysisProject/Dashboard-ProfitAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link"><img width="100%" src="https://github.com/mrankitgupta/Sales-Insights-Data-Analysis-using-Tableau-and-SQL/blob/main/images/Tableau%20Dashbpard%20Profit%20Analysis.png" /></a></p>
-  
-
-  
+### Profit Analysis:
+<p align="center">  
+<a href="https://public.tableau.com/views/SalesInsights-DataAnalysisProject/Dashboard-ProfitAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link">  
+<img width="100%" src="https://github.com/mrankitgupta/Sales-Insights-Data-Analysis-using-Tableau-and-SQL/blob/main/images/Tableau%20Dashbpard%20Profit%20Analysis.png" />  
+</a>  
+</p>
